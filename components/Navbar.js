@@ -40,8 +40,8 @@ export default function Navbar() {
   </div>
 
   <div className="nav-logo-text">
-    <span className="nav-logo-name">Masikio</span>
-    <span className="nav-logo-sub">Adventures · Mara</span>
+    <span className="nav-logo-name">Maasai Mara</span>
+    <span className="nav-logo-sub">Maskio Adventures</span>
   </div>
 </Link>
 
