@@ -2,8 +2,10 @@ import '../styles/globals.css';
 
 export const metadata = {
   title: 'Masikio Adventures — Maasai Mara Safari Camp',
-  description: 'Experience the wild heart of Kenya. Luxury tented camps, game drives, cultural visits and unforgettable safari adventures in the Maasai Mara.',
-  keywords: 'Maasai Mara safari, Kenya camp, game drive, wildlife camp, Masikio Adventures, Africa safari',
+  description: 'Experience the wild heart of Kenya...',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {

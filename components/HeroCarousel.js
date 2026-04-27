@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const slides = [
   {
-    image: '/images/hero/hero1.jpeg',
+    image: '/images/services/maasai-culture.png',
     tag: '🦁 Maasai Mara, Kenya',
     title: 'Where the Wild\nThings Roam',
     titleEm: 'Free',
