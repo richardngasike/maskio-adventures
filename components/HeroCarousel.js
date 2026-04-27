@@ -25,7 +25,7 @@ const slides = [
     desc: 'Embark on dawn game drives when the predators are most active and the Mara glows in spectacular amber light.',
   },
   {
-    image: '/images/hero/hero3.jpeg',
+    image: '/images/services/tent-camp.png',
     tag: '🎈 Adventure Awaits',
     title: 'Drive\nAfrica\'s',
     titleEm: 'Savannah',
