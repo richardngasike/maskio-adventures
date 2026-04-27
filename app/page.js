@@ -4,12 +4,12 @@ import HeroCarousel from '../components/HeroCarousel';
 import Link from 'next/link';
 
 const featuredServices = [
-  { icon: '🚙', title: 'Land Cruiser Game Drives', desc: 'Full-day and half-day drives with expert Mara guides in custom safari vehicles.', price: 'From KES 9,500', image: '/images/services/game-drive.jpg', cat: 'Safari' },
-  { icon: '🎈', title: 'Hot Air Balloon Safari', desc: 'Drift above the Mara plains at sunrise with a champagne bush breakfast.', price: 'From KES 45,000', image: '/images/services/balloon.jpg', cat: 'Adventure' },
-  { icon: '🏕️', title: 'Luxury Tented Camp', desc: 'Sleep under canvas in fully furnished tents with en-suite and solar power.', price: 'From KES 25,000', image: '/images/services/tent-camp.jpg', cat: 'Accommodation' },
-  { icon: '🪘', title: 'Maasai Cultural Visit', desc: 'Authentic village experience with traditional dances, crafts, and storytelling.', price: 'From KES 4,500', image: '/images/services/maasai-culture.jpg', cat: 'Culture' },
-  { icon: '🚶', title: 'Walking Safari', desc: 'Trek through the bush on foot guided by armed Maasai warriors.', price: 'From KES 5,500', image: '/images/services/walking.jpg', cat: 'Adventure' },
-  { icon: '🌅', title: 'Bush Sundowner Dinner', desc: 'Gourmet African cuisine under the stars with lanterns and live music.', price: 'From KES 7,500', image: '/images/services/sundowner.jpg', cat: 'Dining' },
+  { icon: '🚙', title: 'Land Cruiser Game Drives', desc: 'Full-day and half-day drives with expert Mara guides in custom safari vehicles.', price: 'From KES 25,000', image: '/images/services/game-drive.jpeg', cat: 'Safari' },
+  { icon: '🎈', title: 'Hot Air Balloon Safari', desc: 'Drift above the Mara plains at sunrise with a champagne bush breakfast.', price: 'From KES 45,000', image: '/images/services/balloon.png', cat: 'Adventure' },
+  { icon: '🏕️', title: 'Luxury Tented Camp', desc: 'Sleep under canvas in fully furnished tents with en-suite and solar power.', price: 'From KES 15,000', image: '/images/services/tent-camp.png', cat: 'Accommodation' },
+  { icon: '🪘', title: 'Maasai Cultural Visit', desc: 'Authentic village experience with traditional dances, crafts, and storytelling.', price: 'From KES 4,500', image: '/images/services/maasai-culture.png', cat: 'Culture' },
+  { icon: '🚶', title: 'Walking Safari', desc: 'Trek through the bush on foot guided by armed Maasai warriors.', price: 'From KES 5,500', image: '/images/services/walking.png', cat: 'Adventure' },
+  { icon: '🌅', title: 'Bush Sundowner Dinner', desc: 'Gourmet African cuisine under the stars with lanterns and live music.', price: 'From KES 7,500', image: '/images/services/sundowner.png', cat: 'Dining' },
 ];
 
 const whyUs = [
