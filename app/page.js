@@ -160,7 +160,7 @@ export default function HomePage() {
           <div className="gallery-grid">
             {galleryNums.map(n => (
               <div className="gallery-item" key={n}>
-                <img src={`/images/gallery/gallery${n}.jpg`} alt={`Gallery photo ${n}`} />
+                <img src={`/images/gallery/gallery${n}.png`} alt={`Gallery photo ${n}`} />
                 <div className="gallery-item-overlay">
                   <span>🔍</span>
                 </div>

@@ -120,7 +120,7 @@ export default function ServicesPage() {
 
       {/* Booking CTA */}
       <section className="cta-section">
-        <div className="cta-bg" style={{ backgroundImage: 'url(/images/hero/hero2.jpg)' }} />
+        <div className="cta-bg" style={{ backgroundImage: 'url(/images/gallery/gallery5.png)' }} />
         <div className="cta-overlay" />
         <div className="cta-content">
           <span className="section-tag">Ready?</span>

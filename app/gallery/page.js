@@ -7,18 +7,17 @@ export const metadata = {
 };
 
 const galleryItems = [
-  { src: '/images/gallery/gallery1.jpg', caption: 'The Great Migration crossing the Mara River' },
-  { src: '/images/gallery/gallery2.jpg', caption: 'Lion pride at golden hour' },
-  { src: '/images/gallery/gallery3.jpg', caption: 'Elephant herd at the watering hole' },
-  { src: '/images/gallery/gallery4.jpg', caption: 'Hot air balloon over the savannah' },
-  { src: '/images/gallery/gallery5.jpg', caption: 'Maasai warrior at sunset' },
-  { src: '/images/gallery/gallery6.jpg', caption: 'Cheetah on the hunt' },
-  { src: '/images/gallery/gallery7.jpg', caption: 'Bush sundowner dinner setup' },
-  { src: '/images/gallery/gallery8.jpg', caption: 'Zebra migration across the plains' },
-  { src: '/images/gallery/gallery9.jpg', caption: 'Luxury tented camp interior' },
-  { src: '/images/gallery/gallery10.jpg', caption: 'Giraffe against acacia trees' },
-  { src: '/images/gallery/gallery11.jpg', caption: 'Morning game drive team' },
-  { src: '/images/gallery/gallery12.jpg', caption: 'Leopard resting in a tree' },
+  { src: '/images/gallery/gallery1.png', caption: 'The Great Migration crossing the Mara River' },
+  { src: '/images/gallery/gallery2.png', caption: 'Lion pride at golden hour' },
+  { src: '/images/gallery/gallery3.png', caption: 'Elephant herd at the watering hole' },
+  { src: '/images/gallery/gallery4.png', caption: 'Hot air balloon over the savannah' },
+  { src: '/images/gallery/gallery5.png', caption: 'Maasai warrior at sunset' },
+  { src: '/images/gallery/gallery6.png', caption: 'Cheetah on the hunt' },
+  { src: '/images/gallery/gallery7.png', caption: 'Bush sundowner dinner setup' },
+  { src: '/images/gallery/gallery8.png', caption: 'Zebra migration across the plains' },
+  { src: '/images/gallery/gallery9.png', caption: 'Luxury tented camp interior' },
+  { src: '/images/gallery/gallery10.png', caption: 'Giraffe against acacia trees' },
+  { src: '/images/gallery/gallery11.png', caption: 'Morning game drive team' },
 ];
 
 export default function GalleryPage() {
