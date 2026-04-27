@@ -66,10 +66,10 @@ export default function AboutPage() {
 
             <div className="about-images">
               <div className="about-img-main">
-                <img src="/images/about/about-story.jpg" alt="Safari at Masikio Adventures" />
+                <img src="/images/gallery/gallery5.png" alt="Safari at Masikio Adventures" />
               </div>
               <div className="about-img-secondary">
-                <img src="/images/about/about-maasai.jpg" alt="Maasai community" />
+                <img src="/images/gallery/gallery1.png" alt="Maasai community" />
               </div>
               <div className="about-badge">
                 <span className="about-badge-num">12+</span>
