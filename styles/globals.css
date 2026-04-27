@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo-icon {
   width: 48px;
   height: 48px;
-  background: var(--savannah-gold);
+  background: var(black);
   border-radius: 50%;
   display: flex;
   align-items: center;

@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -27,13 +28,22 @@ export default function Navbar() {
   return (
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-        <Link href="/" className="nav-logo">
-          <div className="nav-logo-icon">🦁</div>
-          <div className="nav-logo-text">
-            <span className="nav-logo-name">Masikio</span>
-            <span className="nav-logo-sub">Adventures · Mara</span>
-          </div>
-        </Link>
+       <Link href="/" className="nav-logo">
+  <div className="nav-logo-icon">
+    <Image 
+      src="/logo-bg.png"
+      alt="Masikio Logo"
+      width={40}
+      height={40}
+      priority
+    />
+  </div>
+
+  <div className="nav-logo-text">
+    <span className="nav-logo-name">Masikio</span>
+    <span className="nav-logo-sub">Adventures · Mara</span>
+  </div>
+</Link>
 
         <ul className="nav-links">
           {links.map(link => (

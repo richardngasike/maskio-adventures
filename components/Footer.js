@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,7 +7,15 @@ export default function Footer() {
       <div className="footer-grid">
         <div className="footer-brand">
           <div className="nav-logo" style={{ marginBottom: '1rem' }}>
-            <div className="nav-logo-icon">🦁</div>
+              <div className="nav-logo-icon">
+    <Image 
+      src="/logo-bg.png"
+      alt="Masikio Logo"
+      width={40}
+      height={40}
+      priority
+    />
+  </div>
             <div className="nav-logo-text">
               <span className="nav-logo-name">Masikio Adventures</span>
               <span className="nav-logo-sub">Maasai Mara · Est. 2012</span>
