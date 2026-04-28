@@ -312,7 +312,14 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(28, 16, 5, 0.98);
+  background: 
+    linear-gradient(rgba(28, 16, 5, 0.92), rgba(28, 16, 5, 0.92)),
+    url('/maasai.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   z-index: 999;
   flex-direction: column;
   align-items: center;
@@ -326,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-menu a {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: var(--white);
   text-decoration: none;
   transition: var(--transition);
