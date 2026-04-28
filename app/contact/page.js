@@ -167,7 +167,7 @@ export default function ContactPage() {
                   <option>Honeymoon / Special Occasion</option>
                   <option>Photography Safari</option>
                   <option>Transfer & Logistics</option>
-                  <option>Other</option>
+                  <option>Others</option>
                 </select>
               </div>
               <div className="form-group">
