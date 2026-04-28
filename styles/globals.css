@@ -1730,6 +1730,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 160px);
   }
+  .about-badge { right: 1rem; }
   .gallery-item:nth-child(1) { grid-column: span 2; grid-row: span 1; }
   .footer-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
@@ -1741,6 +1742,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 480px) {
   .container { padding: 0 1rem; }
   .hero-actions { flex-direction: column; }
+  .about-badge { right: 1rem; }
   .btn { width: 100%; justify-content: center; }
   .hero-controls { bottom: 5rem; }
   .gallery-grid { grid-template-columns: 1fr; grid-template-rows: none; }
