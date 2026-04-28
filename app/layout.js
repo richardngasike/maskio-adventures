@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-
+import Image from "next/image";
 export const metadata = {
   title: 'Masikio Adventures — Maasai Mara Safari Camp',
   description: 'Experience the wild heart of Kenya...',

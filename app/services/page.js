@@ -46,7 +46,7 @@ export default function ServicesPage() {
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
             <span className="section-tag">What We Offer</span>
-            <h2 className="section-title">Every Experience,\nPerfectly Crafted</h2>
+            <h2 className="section-title">Every Experience - Perfectly Crafted</h2>
             <p className="section-subtitle" style={{ margin: '0.75rem auto 0' }}>
               From heart-pounding encounters with the Big Five to peaceful evenings dining under a blanket of stars — the Mara offers it all, and so do we.
             </p>

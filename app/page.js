@@ -24,11 +24,11 @@ const whyUs = [
 const testimonials = [
   { name: 'Sarah Mitchell', origin: 'London, UK', stars: '★★★★★', text: 'Masikio exceeded every expectation. Woke up to elephants outside our tent, saw a lion kill at sunrise, and the Maasai dinner was magical. Best trip of our lives.' },
   { name: 'David & Anna Chen', origin: 'Sydney, Australia', stars: '★★★★★', text: 'The balloon safari was absolutely breathtaking. Our guide Emmanuel knew the land like his own backyard — we spotted all Big Five in two days!' },
-  { name: 'Amara Osei', origin: 'Accra, Ghana', stars: '★★★★★', text: 'As an African myself, I was amazed how they blend authenticity with luxury. The cultural visit to the Maasai village was deeply moving and educational.' },
+  { name: 'Amara Odei', origin: 'Accra, Ghana', stars: '★★★★★', text: 'As an African myself, I was amazed how they blend authenticity with luxury. The cultural visit to the Maasai village was deeply moving and educational.' },
+  { name: 'Richard Ngasike', origin: 'Kenyan Local', stars: '★★★★★', text: 'I am a local residing just here in kenya but the experience I got its worthy enjoying'},
 ];
 
 const galleryNums = [1, 2, 3, 4, 5, 6, 7, 8];
-
 export default function HomePage() {
   return (
     <>
@@ -37,9 +37,9 @@ export default function HomePage() {
       {/* Info Strip */}
       <div className="info-strip">
         <div className="info-strip-item">📍 Maasai Mara National Reserve, Kenya</div>
-        <div className="info-strip-item">📞 +254 712 345 678</div>
+        <div className="info-strip-item">📞 +254 718 959 781</div>
         <div className="info-strip-item">✉️ info@masikioadventures.co.ke</div>
-        <div className="info-strip-item">🕐 Open Daily · 6AM – 8PM</div>
+        <div className="info-strip-item">🕐 Open Daily · anytime till dawn</div>
       </div>
       {/* About Preview */}
       <section className="section">
@@ -53,24 +53,24 @@ export default function HomePage() {
                 <img src="/images/about/about-hero.jpeg" alt="Tourists" />
               </div>
               <div className="about-badge">
-                <span className="about-badge-num">12+</span>
+                <span className="about-badge-num">10+</span>
                 <span className="about-badge-text">Years in the Mara</span>
               </div>
             </div>
-
             <div>
               <span className="section-tag">Our Story</span>
               <h2 className="section-title">Born from the<br />Heart of Africa</h2>
               <p className="section-subtitle">
-                Masikio Adventures was founded in 2012 by Peter — a Kenyan naturalist who grew up walking the Mara. Today, we welcome hundreds of guests from across the world to discover Kenya's most iconic wilderness.
+                Masikio Adventures was founded in 2016 by Peter: a Kenyan naturalist who grew up walking the Mara. Today, we welcome hundreds of guests from across the world to discover Kenya's most iconic wilderness.
               </p>
               <p style={{ marginTop: '1rem', color: 'var(--savannah-earth)', fontSize: '0.95rem', lineHeight: '1.8' }}>
                 We operate with deep respect for the land, the wildlife, and the Maasai community who call this place home. Our camps are solar-powered, our partnerships are local, and our guides are among the finest in East Africa.
               </p>
-
+              
+            {/* About stats */}
               <div className="about-stats">
                 <div className="stat-item">
-                  <span className="stat-num">2,400+</span>
+                  <span className="stat-num">2,000+</span>
                   <span className="stat-label">Guests Hosted</span>
                 </div>
                 <div className="stat-item">

@@ -54,11 +54,10 @@ export default function ContactPage() {
             {/* Info */}
             <div>
               <span className="section-tag">We're Here for You</span>
-              <h2 className="section-title" style={{ marginBottom: '1.5rem' }}>Let's Plan\nYour Safari</h2>
+              <h2 className="section-title" style={{ marginBottom: '1.5rem' }}>Let's Plan Your Safari</h2>
               <p style={{ color: 'var(--savannah-earth)', fontSize: '0.95rem', lineHeight: '1.8', marginBottom: '2.5rem' }}>
                 Have questions about our packages? Need a custom itinerary? Want to know the best time to see the wildebeest migration? Our team is ready to help you craft your perfect Kenya adventure.
               </p>
-
               <div className="contact-info-item">
                 <div className="contact-info-icon">📍</div>
                 <div>
