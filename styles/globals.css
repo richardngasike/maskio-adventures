@@ -32,7 +32,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
 }
 
 html {
@@ -190,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-logo-icon {
   width: 48px;
   height: 48px;
-  background: var(black);
+  /* background: black; */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -805,32 +804,45 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
 }
 
-.about-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-top: 2.5rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--border);
+.stats-section {
+  background: var(--savannah-gold);
+  padding: 4rem 2rem;
 }
 
-.stat-item {
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
   text-align: center;
 }
 
-.stat-num {
+/* Tablet */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.stat-number {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
   font-weight: 900;
-  color: var(--savannah-gold);
-  display: block;
+  color: var(--white);
 }
 
 .stat-label {
-  font-size: 0.78rem;
-  color: var(--savannah-earth);
-  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-top: 0.25rem;
 }
 
 /* ===================== GALLERY ===================== */

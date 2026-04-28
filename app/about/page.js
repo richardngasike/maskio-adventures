@@ -130,13 +130,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section style={{ background: 'var(--savannah-gold)', padding: '4rem 2rem' }}>
+     <section className="stats-section">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2rem', textAlign: 'center' }}>
+          <div className="stats-grid">
             {stats.map((s, i) => (
-              <div key={i}>
-                <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2.5rem', fontWeight: '900', color: 'var(--white)' }}>{s.num}</div>
-                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.85)', letterSpacing: '0.1em', textTransform: 'uppercase', marginTop: '0.25rem' }}>{s.label}</div>
+              <div key={i} className="stat-item">
+                <div className="stat-number">{s.num}</div>
+                <div className="stat-label">{s.label}</div>
               </div>
             ))}
           </div>
